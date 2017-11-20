@@ -1,0 +1,16 @@
+{
+    "host": "localhost",
+    "port": 15674,
+    "https": true,
+
+    "user": "guest",
+    "pass": "guest",
+
+    "subscribe": ["/queue/trystompheroesa"],
+    "publish": ["/queue/trystompheroes"],
+
+    "heartbeat_in": 0,
+    "heartbeat_out": 2000,
+
+    "debug": true
+}
